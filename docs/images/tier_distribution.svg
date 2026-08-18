@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="premGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E50914"/>
+      <stop offset="100%" stop-color="#B20710"/>
+    </linearGradient>
+    <linearGradient id="stdGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="100%" stop-color="#2D68C4"/>
+    </linearGradient>
+    <linearGradient id="basicGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#D98200"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#141414" rx="12"/>
+  <text x="30" y="45" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Subscription Tier & Revenue Distribution (25,000 Users)</text>
+  <text x="30" y="70" fill="#AAAAAA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Monthly Recurring Revenue (MRR: $404,307/mo) & Subscriber Proportions</text>
+  
+  <!-- Premium -->
+  <text x="30" y="120" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="600">Premium Tier ($22.99/mo)</text>
+  <text x="610" y="120" fill="#E50914" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">47.8% MRR</text>
+  <rect x="30" y="132" width="640" height="24" rx="6" fill="#222222"/>
+  <rect x="30" y="132" width="306" height="24" rx="6" fill="url(#premGrad)"/>
+  <text x="40" y="149" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">8,402 Subscribers (33.6%) • $193,161.98 MRR</text>
+
+  <!-- Standard -->
+  <text x="30" y="195" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="600">Standard Tier ($15.49/mo)</text>
+  <text x="610" y="195" fill="#4A90E2" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">31.6% MRR</text>
+  <rect x="30" y="207" width="640" height="24" rx="6" fill="#222222"/>
+  <rect x="30" y="207" width="202" height="24" rx="6" fill="url(#stdGrad)"/>
+  <text x="40" y="224" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">8,242 Subscribers (33.0%) • $127,668.58 MRR</text>
+
+  <!-- Basic -->
+  <text x="30" y="270" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="600">Basic Tier ($9.99/mo)</text>
+  <text x="610" y="270" fill="#F5A623" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">20.6% MRR</text>
+  <rect x="30" y="282" width="640" height="24" rx="6" fill="#222222"/>
+  <rect x="30" y="282" width="132" height="24" rx="6" fill="url(#basicGrad)"/>
+  <text x="40" y="299" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">8,356 Subscribers (33.4%) • $83,476.44 MRR</text>
+</svg>
