@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E50914"/>
+      <stop offset="100%" stop-color="#FF5A5F"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#141414" rx="12"/>
+  <text x="30" y="45" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Top Regional Markets by Aggregate Streamed Hours</text>
+  <text x="30" y="70" fill="#AAAAAA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Aggregated Streamed Hours (Total: 12.5M+ Hours Across 25,000 Users)</text>
+
+  <!-- Germany -->
+  <text x="30" y="115" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Germany (2,547 users)</text>
+  <rect x="180" y="100" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="100" width="420" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="115" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.26M hrs</text>
+
+  <!-- Brazil -->
+  <text x="30" y="155" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Brazil (2,503 users)</text>
+  <rect x="180" y="140" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="140" width="420" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="155" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.26M hrs</text>
+
+  <!-- USA -->
+  <text x="30" y="195" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">USA (2,520 users)</text>
+  <rect x="180" y="180" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="180" width="418" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="195" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.25M hrs</text>
+
+  <!-- France -->
+  <text x="30" y="235" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">France (2,520 users)</text>
+  <rect x="180" y="220" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="220" width="417" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="235" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.25M hrs</text>
+
+  <!-- Australia -->
+  <text x="30" y="275" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Australia (2,488 users)</text>
+  <rect x="180" y="260" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="260" width="413" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="275" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.24M hrs</text>
+
+  <!-- Canada -->
+  <text x="30" y="315" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Canada (2,510 users)</text>
+  <rect x="180" y="300" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="300" width="412" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="315" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.24M hrs</text>
+
+  <!-- UK -->
+  <text x="30" y="355" fill="#EEEEEE" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">UK (2,456 users)</text>
+  <rect x="180" y="340" width="420" height="20" rx="4" fill="#222222"/>
+  <rect x="180" y="340" width="411" height="20" rx="4" fill="url(#barGrad)"/>
+  <text x="610" y="355" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">1.23M hrs</text>
+</svg>
