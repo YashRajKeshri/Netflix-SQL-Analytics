@@ -1,0 +1,66 @@
+-- ==============================================================================
+-- Netflix SQL Analytics - Seed Data SQL Script
+-- Dialect: MySQL 8.0+
+-- File: data/seed_data.sql
+-- ==============================================================================
+
+USE netflix_db;
+
+INSERT INTO netflix_users (User_ID, Name, Age, Country, Subscription_Type, Watch_Time_Hours, Favorite_Genre, Last_Login) VALUES
+(1, 'James Martinez', 18, 'France', 'Premium', 80.26, 'Drama', '2024-05-12'),
+(2, 'John Miller', 23, 'USA', 'Premium', 321.75, 'Sci-Fi', '2025-02-05'),
+(3, 'Emma Davis', 60, 'UK', 'Basic', 35.89, 'Comedy', '2025-01-24'),
+(4, 'Emma Miller', 44, 'USA', 'Premium', 261.56, 'Documentary', '2024-03-25'),
+(5, 'Jane Smith', 68, 'USA', 'Standard', 909.30, 'Drama', '2025-01-14'),
+(6, 'David Johnson', 21, 'USA', 'Standard', 615.93, 'Romance', '2025-02-03'),
+(7, 'John Hernandez', 57, 'Canada', 'Standard', 755.47, 'Romance', '2025-01-05'),
+(8, 'Katie Hernandez', 68, 'USA', 'Standard', 145.23, 'Sci-Fi', '2024-10-30'),
+(9, 'James Williams', 39, 'UK', 'Basic', 950.14, 'Action', '2024-04-16'),
+(10, 'Alex Davis', 55, 'Mexico', 'Standard', 696.66, 'Horror', '2024-07-03'),
+(11, 'Jane Miller', 26, 'Japan', 'Standard', 290.31, 'Action', '2024-09-11'),
+(12, 'Jane Martinez', 62, 'USA', 'Standard', 490.39, 'Action', '2024-06-12'),
+(13, 'Alex Martinez', 65, 'Australia', 'Premium', 712.23, 'Comedy', '2024-08-08'),
+(14, 'Alex Smith', 35, 'Germany', 'Premium', 73.63, 'Sci-Fi', '2024-10-02'),
+(15, 'Michael Jones', 68, 'USA', 'Premium', 359.30, 'Sci-Fi', '2024-07-25'),
+(16, 'Chris Miller', 39, 'Australia', 'Premium', 768.19, 'Comedy', '2024-10-11'),
+(17, 'Chris Davis', 74, 'UK', 'Standard', 610.70, 'Drama', '2024-07-03'),
+(18, 'Emma Williams', 59, 'Canada', 'Premium', 813.46, 'Documentary', '2024-08-08'),
+(19, 'Alex Johnson', 63, 'Brazil', 'Premium', 963.64, 'Action', '2024-08-08'),
+(20, 'John Jones', 67, 'Canada', 'Standard', 460.60, 'Comedy', '2024-12-07'),
+(21, 'Michael Williams', 47, 'France', 'Standard', 637.43, 'Horror', '2025-01-21'),
+(22, 'James Martinez', 46, 'UK', 'Premium', 620.74, 'Comedy', '2024-04-19'),
+(23, 'Sarah Davis', 40, 'UK', 'Basic', 451.59, 'Drama', '2024-04-08'),
+(24, 'John Smith', 46, 'UK', 'Basic', 388.91, 'Horror', '2024-10-16'),
+(25, 'Emily Brown', 29, 'Germany', 'Basic', 520.10, 'Action', '2025-01-18'),
+(26, 'Sophia Taylor', 31, 'USA', 'Premium', 842.15, 'Sci-Fi', '2025-02-10'),
+(27, 'Liam Wilson', 24, 'UK', 'Standard', 415.60, 'Action', '2025-01-28'),
+(28, 'Noah Anderson', 52, 'Canada', 'Premium', 620.40, 'Drama', '2024-11-15'),
+(29, 'Olivia Thomas', 41, 'Australia', 'Basic', 180.90, 'Romance', '2024-12-02'),
+(30, 'Lucas Jackson', 33, 'France', 'Standard', 530.80, 'Comedy', '2025-01-09'),
+(31, 'Mia White', 22, 'Germany', 'Premium', 910.45, 'Sci-Fi', '2025-02-14'),
+(32, 'Ethan Harris', 61, 'Japan', 'Basic', 110.20, 'Documentary', '2024-09-22'),
+(33, 'Ava Martin', 48, 'Brazil', 'Standard', 495.30, 'Horror', '2024-10-30'),
+(34, 'Mason Thompson', 37, 'Mexico', 'Premium', 780.00, 'Action', '2025-01-05'),
+(35, 'Isabella Garcia', 28, 'USA', 'Basic', 310.50, 'Comedy', '2025-02-01'),
+(36, 'Logan Martinez', 50, 'Canada', 'Standard', 675.25, 'Drama', '2024-12-20'),
+(37, 'Charlotte Robinson', 39, 'UK', 'Premium', 890.10, 'Documentary', '2025-01-30'),
+(38, 'Benjamin Clark', 45, 'France', 'Basic', 245.80, 'Action', '2024-08-14'),
+(39, 'Amelia Rodriguez', 27, 'Brazil', 'Standard', 580.40, 'Romance', '2025-01-12'),
+(40, 'Harper Lewis', 58, 'Australia', 'Premium', 725.60, 'Sci-Fi', '2024-11-28'),
+(41, 'Elijah Lee', 34, 'Germany', 'Basic', 390.20, 'Comedy', '2024-10-19'),
+(42, 'Evelyn Walker', 66, 'USA', 'Standard', 810.00, 'Drama', '2025-02-08'),
+(43, 'Oliver Hall', 25, 'Japan', 'Premium', 640.75, 'Action', '2025-01-16'),
+(44, 'Abigail Allen', 43, 'Mexico', 'Basic', 195.40, 'Horror', '2024-07-29'),
+(45, 'Henry Young', 51, 'UK', 'Standard', 512.90, 'Sci-Fi', '2024-12-18'),
+(46, 'Ella Hernandez', 30, 'France', 'Premium', 945.30, 'Drama', '2025-02-12'),
+(47, 'Alexander King', 38, 'Canada', 'Basic', 420.15, 'Comedy', '2024-11-04'),
+(48, 'Scarlett Wright', 20, 'Australia', 'Standard', 330.60, 'Romance', '2025-01-22'),
+(49, 'Sebastian Lopez', 62, 'Brazil', 'Premium', 885.50, 'Action', '2025-02-06'),
+(50, 'Grace Hill', 49, 'Germany', 'Standard', 612.40, 'Documentary', '2024-10-08')
+ON DUPLICATE KEY UPDATE
+    Age = VALUES(Age),
+    Country = VALUES(Country),
+    Subscription_Type = VALUES(Subscription_Type),
+    Watch_Time_Hours = VALUES(Watch_Time_Hours),
+    Favorite_Genre = VALUES(Favorite_Genre),
+    Last_Login = VALUES(Last_Login);
